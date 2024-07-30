@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECDBE652C5910C000509429 /* NotchCreaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDBE642C5910C000509429 /* NotchCreaturesApp.swift */; };
+		DECDBE672C5910C000509429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDBE662C5910C000509429 /* ContentView.swift */; };
+		DECDBE692C5910C100509429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECDBE682C5910C100509429 /* Assets.xcassets */; };
+		DECDBE6C2C5910C100509429 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECDBE6B2C5910C100509429 /* Preview Assets.xcassets */; };
+		DECDBE772C5910C200509429 /* NotchCreaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDBE762C5910C200509429 /* NotchCreaturesTests.swift */; };
+		DECDBE812C5910C200509429 /* NotchCreaturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDBE802C5910C200509429 /* NotchCreaturesUITests.swift */; };
+		DECDBE832C5910C200509429 /* NotchCreaturesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDBE822C5910C200509429 /* NotchCreaturesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECDBE732C5910C200509429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECDBE592C5910C000509429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECDBE602C5910C000509429;
+			remoteInfo = NotchCreatures;
+		};
+		DECDBE7D2C5910C200509429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECDBE592C5910C000509429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECDBE602C5910C000509429;
+			remoteInfo = NotchCreatures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECDBE612C5910C000509429 /* NotchCreatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotchCreatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECDBE642C5910C000509429 /* NotchCreaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchCreaturesApp.swift; sourceTree = "<group>"; };
+		DECDBE662C5910C000509429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DECDBE682C5910C100509429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECDBE6B2C5910C100509429 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DECDBE6D2C5910C100509429 /* NotchCreatures.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotchCreatures.entitlements; sourceTree = "<group>"; };
+		DECDBE722C5910C200509429 /* NotchCreaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotchCreaturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECDBE762C5910C200509429 /* NotchCreaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchCreaturesTests.swift; sourceTree = "<group>"; };
+		DECDBE7C2C5910C200509429 /* NotchCreaturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotchCreaturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECDBE802C5910C200509429 /* NotchCreaturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchCreaturesUITests.swift; sourceTree = "<group>"; };
+		DECDBE822C5910C200509429 /* NotchCreaturesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchCreaturesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECDBE5E2C5910C000509429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECDBE6F2C5910C200509429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECDBE792C5910C200509429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECDBE582C5910C000509429 = {
+			isa = PBXGroup;
+			children = (
+				DECDBE632C5910C000509429 /* NotchCreatures */,
+				DECDBE752C5910C200509429 /* NotchCreaturesTests */,
+				DECDBE7F2C5910C200509429 /* NotchCreaturesUITests */,
+				DECDBE622C5910C000509429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECDBE622C5910C000509429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECDBE612C5910C000509429 /* NotchCreatures.app */,
+				DECDBE722C5910C200509429 /* NotchCreaturesTests.xctest */,
+				DECDBE7C2C5910C200509429 /* NotchCreaturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECDBE632C5910C000509429 /* NotchCreatures */ = {
+			isa = PBXGroup;
+			children = (
+				DECDBE642C5910C000509429 /* NotchCreaturesApp.swift */,
+				DECDBE662C5910C000509429 /* ContentView.swift */,
+				DECDBE682C5910C100509429 /* Assets.xcassets */,
+				DECDBE6D2C5910C100509429 /* NotchCreatures.entitlements */,
+				DECDBE6A2C5910C100509429 /* Preview Content */,
+			);
+			path = NotchCreatures;
+			sourceTree = "<group>";
+		};
+		DECDBE6A2C5910C100509429 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DECDBE6B2C5910C100509429 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DECDBE752C5910C200509429 /* NotchCreaturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECDBE762C5910C200509429 /* NotchCreaturesTests.swift */,
+			);
+			path = NotchCreaturesTests;
+			sourceTree = "<group>";
+		};
+		DECDBE7F2C5910C200509429 /* NotchCreaturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DECDBE802C5910C200509429 /* NotchCreaturesUITests.swift */,
+				DECDBE822C5910C200509429 /* NotchCreaturesUITestsLaunchTests.swift */,
+			);
+			path = NotchCreaturesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECDBE602C5910C000509429 /* NotchCreatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECDBE862C5910C200509429 /* Build configuration list for PBXNativeTarget "NotchCreatures" */;
+			buildPhases = (
+				DECDBE5D2C5910C000509429 /* Sources */,
+				DECDBE5E2C5910C000509429 /* Frameworks */,
+				DECDBE5F2C5910C000509429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotchCreatures;
+			productName = NotchCreatures;
+			productReference = DECDBE612C5910C000509429 /* NotchCreatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECDBE712C5910C200509429 /* NotchCreaturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECDBE892C5910C200509429 /* Build configuration list for PBXNativeTarget "NotchCreaturesTests" */;
+			buildPhases = (
+				DECDBE6E2C5910C200509429 /* Sources */,
+				DECDBE6F2C5910C200509429 /* Frameworks */,
+				DECDBE702C5910C200509429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECDBE742C5910C200509429 /* PBXTargetDependency */,
+			);
+			name = NotchCreaturesTests;
+			productName = NotchCreaturesTests;
+			productReference = DECDBE722C5910C200509429 /* NotchCreaturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DECDBE7B2C5910C200509429 /* NotchCreaturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECDBE8C2C5910C200509429 /* Build configuration list for PBXNativeTarget "NotchCreaturesUITests" */;
+			buildPhases = (
+				DECDBE782C5910C200509429 /* Sources */,
+				DECDBE792C5910C200509429 /* Frameworks */,
+				DECDBE7A2C5910C200509429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECDBE7E2C5910C200509429 /* PBXTargetDependency */,
+			);
+			name = NotchCreaturesUITests;
+			productName = NotchCreaturesUITests;
+			productReference = DECDBE7C2C5910C200509429 /* NotchCreaturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECDBE592C5910C000509429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DECDBE602C5910C000509429 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DECDBE712C5910C200509429 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DECDBE602C5910C000509429;
+					};
+					DECDBE7B2C5910C200509429 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DECDBE602C5910C000509429;
+					};
+				};
+			};
+			buildConfigurationList = DECDBE5C2C5910C000509429 /* Build configuration list for PBXProject "NotchCreatures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECDBE582C5910C000509429;
+			productRefGroup = DECDBE622C5910C000509429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECDBE602C5910C000509429 /* NotchCreatures */,
+				DECDBE712C5910C200509429 /* NotchCreaturesTests */,
+				DECDBE7B2C5910C200509429 /* NotchCreaturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECDBE5F2C5910C000509429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECDBE6C2C5910C100509429 /* Preview Assets.xcassets in Resources */,
+				DECDBE692C5910C100509429 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECDBE702C5910C200509429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECDBE7A2C5910C200509429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECDBE5D2C5910C000509429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECDBE672C5910C000509429 /* ContentView.swift in Sources */,
+				DECDBE652C5910C000509429 /* NotchCreaturesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECDBE6E2C5910C200509429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECDBE772C5910C200509429 /* NotchCreaturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECDBE782C5910C200509429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECDBE832C5910C200509429 /* NotchCreaturesUITestsLaunchTests.swift in Sources */,
+				DECDBE812C5910C200509429 /* NotchCreaturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECDBE742C5910C200509429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECDBE602C5910C000509429 /* NotchCreatures */;
+			targetProxy = DECDBE732C5910C200509429 /* PBXContainerItemProxy */;
+		};
+		DECDBE7E2C5910C200509429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECDBE602C5910C000509429 /* NotchCreatures */;
+			targetProxy = DECDBE7D2C5910C200509429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DECDBE842C5910C200509429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DECDBE852C5910C200509429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DECDBE872C5910C200509429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotchCreatures/NotchCreatures.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotchCreatures/Preview Content\"";
+				DEVELOPMENT_TEAM = 68F98469N9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotchCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DECDBE882C5910C200509429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotchCreatures/NotchCreatures.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotchCreatures/Preview Content\"";
+				DEVELOPMENT_TEAM = 68F98469N9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotchCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DECDBE8A2C5910C200509429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68F98469N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotchCreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotchCreatures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotchCreatures";
+			};
+			name = Debug;
+		};
+		DECDBE8B2C5910C200509429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68F98469N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotchCreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotchCreatures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotchCreatures";
+			};
+			name = Release;
+		};
+		DECDBE8D2C5910C200509429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68F98469N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotchCreaturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NotchCreatures;
+			};
+			name = Debug;
+		};
+		DECDBE8E2C5910C200509429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68F98469N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotchCreaturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NotchCreatures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECDBE5C2C5910C000509429 /* Build configuration list for PBXProject "NotchCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECDBE842C5910C200509429 /* Debug */,
+				DECDBE852C5910C200509429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECDBE862C5910C200509429 /* Build configuration list for PBXNativeTarget "NotchCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECDBE872C5910C200509429 /* Debug */,
+				DECDBE882C5910C200509429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECDBE892C5910C200509429 /* Build configuration list for PBXNativeTarget "NotchCreaturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECDBE8A2C5910C200509429 /* Debug */,
+				DECDBE8B2C5910C200509429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECDBE8C2C5910C200509429 /* Build configuration list for PBXNativeTarget "NotchCreaturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECDBE8D2C5910C200509429 /* Debug */,
+				DECDBE8E2C5910C200509429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECDBE592C5910C000509429 /* Project object */;
+}
